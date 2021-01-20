@@ -6,16 +6,16 @@ It contains a full integration of the MEAN stack. Which MEANS 😂 (pun intended
 ## How to start it?
 The project can be started using the NPM scripts that are supplied in the package.json file or by using the following commands.
 
-//this will install all the nodemodules needed for the project to run
-npm install 
+### this will install all the nodemodules needed for the project to run
+npm install
 
-//this wil start up the frontend server on port 4200
+### this wil start up the frontend server on port 4200
 ng serve
 
-//this will start the express server and also keeps listening for changes
+### this will start the express server and also keeps listening for changes
 nodemon Server/server.js
 
-//this will start the json-server to serve some data
+### this will start the json-server to serve some data
 json-server ./zwembaddata.json
 
 ## NOTE
