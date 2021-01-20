@@ -18,8 +18,8 @@ nodemon Server/server.js
 //this will start the json-server to serve some data
 json-server ./zwembaddata.json
 
-##NOTE
+## NOTE
 This is a school exam this is designed to test the students abilty to use the angular framework, http request, webserver setup, pushing and fetching data around.
 This is a good starting point for education but might not suffice in a realworld application.
 
-#Enjoy!
+# Enjoy!
