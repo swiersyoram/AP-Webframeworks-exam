@@ -1,0 +1,25 @@
+<br>
+<br>
+<hr>
+<b>Stap 2:</b> selecteer een zwembad en vervolgens ook een tijdstip
+
+<br>
+<hr>
+<div class="select">
+    <select  (change)="selectpool($event.target.value)">
+         <option   hidden>{{greeting()}} </option>
+        <option [value]="zwembad.id"  *ngFor="let zwembad of zwembaddata"  >{{zwembad.name}}</option>
+    </select>
+</div>
+<br>
+<div class="select" *ngIf="service.poolselected">
+    <select (change)="selecthour($event.target.value)">
+        <option  *ngIf="service.Timeslot!=null" hidden>{{service.Timeslot}} </option> 
+        <option *ngIf="service.Timeslot==null" hidden>Kies een uur </option>
+        <option [value]="uur" *ngFor="let uur of urenselected" >{{uur}}</option>
+    </select>
+</div>
+
+<br>
+<br>
+<hr>

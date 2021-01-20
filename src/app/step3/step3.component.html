@@ -1,0 +1,21 @@
+<br>
+<br>
+<hr>
+<b>Stap 3:</b> Verifieer uw gegevens en bevestig uw reservatie
+
+<br>
+<hr>
+Naam: <b *ngIf="service.Name==null">xxx</b><b *ngIf="service.Name!=null">{{service.Name}}</b>
+<br>
+Lidmaatschapsnummer: <b *ngIf="service.MemberId==null">xxx</b><b *ngIf="service.MemberId!=null">{{service.MemberId}}</b>
+<br>
+Zwembad: <b *ngIf="service.PoolName==null">xxx</b><b *ngIf="service.PoolName!=null">{{service.PoolName | uppercase}}</b>
+<br>
+Tijdstip: <b *ngIf="service.Timeslot==null">xxx</b><b *ngIf="service.Timeslot!=null">{{service.Timeslot}}</b>
+<br>
+<br>
+<button class="button" (click)="submit()">Bevestig</button>
+
+<br>
+<hr>
+Uw reservatie werd bevestigd, hierbij vindt u tevens uw reservatie code: <b *ngIf="!service.postresponse">xxxx</b><b *ngIf="service.postresponse">{{service.postresponse}}</b>
