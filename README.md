@@ -1,6 +1,6 @@
 # angular/nodjs/express/mongoDB
 ## What is it all about?
-This project is my solution of the test I took for the class Webframeworks on the University of applied siences Artesis Plantijn in Antwerp.
+This project is my solution of the test I took for the class Webframeworks at the University of applied siences Artesis Plantijn in Antwerp.
 It contains a full integration of the MEAN stack. Which MEANS 😂 (pun intended) that we used angular for the frontend, express for the backend, mongoDB as a database and even a simple JSON server to serve some data. If you're trying to get a grasp of webdevelopment, using the MEAN stack, this project might be of some value to you!
 
 ## How to start it?
